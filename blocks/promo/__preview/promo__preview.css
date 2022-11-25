@@ -1,0 +1,7 @@
+.promo__preview {
+  width: 100%;
+  max-width: 500px;
+  flex-grow: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}

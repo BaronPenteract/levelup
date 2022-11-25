@@ -1,0 +1,19 @@
+.reviews__btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+  margin: 0;
+  padding: 15px;
+  background-color: #77117a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: opacity .2s linear;
+}
+
+.reviews__btn:hover {
+  opacity: .8;
+}

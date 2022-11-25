@@ -1,0 +1,13 @@
+.promo__title {
+  width: 100%;
+  margin: 0 0 15px;
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .promo__title {
+    font-size: 21px;
+  }
+}

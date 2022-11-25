@@ -1,0 +1,24 @@
+.ingredients {
+  width: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: minmax(min-content, 140px) 1fr 140px;
+  grid-template-areas:
+  "left prod right"
+  ". order .";
+  gap: 20px;
+  justify-content: space-between;
+  justify-items: center;
+  background: linear-gradient( to bottom, rgba(0, 0, 0, .75) 10%, transparent);
+}
+
+@media screen and (max-width: 660px) {
+  .ingredients {
+    grid-template-columns: repeat(2, 140px);
+    justify-content: space-evenly;
+    grid-template-areas:
+    "left right"
+    "order order";
+  }
+}

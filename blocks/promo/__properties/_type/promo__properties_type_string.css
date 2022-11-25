@@ -1,0 +1,10 @@
+.promo__properties_type_string {
+  display: flex;
+  gap: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .promo__properties_type_string {
+    font-size: 14px;
+  }
+}

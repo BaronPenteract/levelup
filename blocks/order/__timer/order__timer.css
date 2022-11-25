@@ -1,0 +1,5 @@
+.order__timer {
+  grid-area: timer;
+  color: #fff;
+  font-size: 42px;
+}

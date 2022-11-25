@@ -1,0 +1,19 @@
+.order-link {
+  padding: 10px;
+  color: inherit;
+  text-decoration: none;
+  font-weight: 500;
+  text-align: center;
+  color: #fff;
+  font-size: inherit;
+  align-self: flex-end;
+  background-color: #77117a;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: opacity .2s linear;
+}
+
+.order-link:hover {
+  opacity: .8;
+}

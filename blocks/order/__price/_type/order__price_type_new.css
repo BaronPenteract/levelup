@@ -1,0 +1,16 @@
+@keyframes price-anim {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.order__price_type_new {
+  font-size: 42px;
+  animation: price-anim 1s linear infinite;
+}

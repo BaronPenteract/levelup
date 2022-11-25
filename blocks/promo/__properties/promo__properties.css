@@ -1,0 +1,9 @@
+.promo__properties {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgb(0, 0, 0, .4);
+  border-radius: 5px;
+}

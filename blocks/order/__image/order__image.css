@@ -1,0 +1,5 @@
+.order__image {
+  width: 190px;
+  object-fit: contain;
+  object-position: center;
+}
